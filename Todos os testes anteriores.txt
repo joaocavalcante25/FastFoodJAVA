@@ -1,0 +1,71 @@
+/*
+		System.out.println("\n=== Listando todos os atendentes =====");
+		List<Atendente> listAtendente = atendenteDao.findAll();
+		for (Atendente obj : listAtendente) {
+			System.out.println(obj);
+		}
+		
+		System.out.println("\n=== Listando todos as categorias =====");
+		List<Categoria> listCategoria = categoriaDao.findAll();
+		for (Categoria obj : listCategoria) {
+			System.out.println(obj);
+		}
+		
+		System.out.println("\n=== Listando todos as ingrediente / produto =====");
+		List<Ing_Prod> listIng_Prod = ing_prodDao.findAll();
+		for (Ing_Prod obj : listIng_Prod) {
+			System.out.println(obj);
+		}
+		
+		System.out.println("\n=== Listando todos os ingredientes =====");
+		List<Ingrediente> listIngrediente = ingredienteDao.findAll();
+		for (Ingrediente obj : listIngrediente) {
+			System.out.println(obj);
+		}
+		
+		System.out.println("\n=== Listando todos os item / pedido =====");
+		List<Item_Pedido> listItem_Pedido = item_pedidoDao.findAll();
+		for (Item_Pedido obj : listItem_Pedido) {
+			System.out.println(obj);
+		}
+		
+		System.out.println("\n=== Listando todos os pagamentos =====");
+		List<Pagamento> listPagamento = pagamentoDao.findAll();
+		for (Pagamento obj : listPagamento) {
+			System.out.println(obj);
+		}
+		
+		System.out.println("\n=== Listando todos os pedido / item_pedido =====");
+		List<Pedido_Item> listPedido_Item = pedido_itemDao.findAll();
+		for (Pedido_Item obj : listPedido_Item) {
+			System.out.println(obj);
+		}
+		
+		System.out.println("\n=== Listando todos os pedidos =====");
+		List<Pedido> listPedido = pedidoDao.findAll();
+		for (Pedido obj : listPedido) {
+			System.out.println(obj);
+		}
+		
+		System.out.println("\n=== Listando todos os produtos =====");
+		List<Produto> listProduto = produtoDao.findAll();
+		for (Produto obj : listProduto) {
+			System.out.println(obj);
+		}
+		
+		System.out.println("\n=== Listando todos os promocao =====");
+		List<Promocao> listPromocao = promocaoDao.findAll();
+		for (Promocao obj : listPromocao) {
+			System.out.println(obj);
+		}
+		
+		System.out.println("\n=== TEST 4: atendente insert =====");
+		Atendente novoAtendente = new Atendente(null, "ativo", "vespertino", "eric123", "eric", "Eric");
+		atendenteDao.insert(novoAtendente);
+		
+		System.out.println("\n=== TEST 4: Categoria insert =====");
+		Categoria novoCategoria = new Categoria(null, "doces", "agridoce");
+		categoriaDao.insert(novoCategoria);
+		*/
+		System.out.println(atendenteDao.findById(1));
+		System.out.println(categoriaDao.findById(1));
